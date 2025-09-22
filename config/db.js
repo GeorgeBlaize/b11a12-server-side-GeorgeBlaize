@@ -1,4 +1,3 @@
-// config/db.js
 import { MongoClient } from 'mongodb';
 
 const connectDB = async () => {
