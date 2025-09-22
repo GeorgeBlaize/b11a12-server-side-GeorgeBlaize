@@ -1,4 +1,3 @@
-// controllers/authController.js
 import jwt from 'jsonwebtoken';
 import { ObjectId } from 'mongodb';
 
