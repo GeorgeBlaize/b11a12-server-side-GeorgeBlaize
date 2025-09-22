@@ -1,4 +1,3 @@
-// routes/userRoutes.js
 import express from 'express';
 import { getUsers, updateUser, deleteUser } from '../controllers/userController.js';
 import authMiddleware from '../middleware/authMiddleware.js';
