@@ -1,4 +1,3 @@
-// routes/tourGuideRoutes.js
 import express from 'express';
 import { getTourGuides, getRandomTourGuides, getTourGuideById } from '../controllers/tourGuideController.js';
 
