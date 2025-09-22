@@ -1,4 +1,3 @@
-// middleware/authMiddleware.js
 import jwt from 'jsonwebtoken';
 
 const authMiddleware = (req, res, next) => {
@@ -11,7 +10,7 @@ const authMiddleware = (req, res, next) => {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded;
 
-    // Restrict certain routes to admins only
+   
     if (req.path.includes('/users') || req.path.includes('/candidates') || req.path.includes('/packages')) {
       if (decoded.role !== 'admin') {
         return res.status(403).json({ message: 'Admin access required' });
