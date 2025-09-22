@@ -1,4 +1,3 @@
-// controllers/tourGuideController.js
 import { ObjectId } from 'mongodb';
 
 const getTourGuides = async (req, res, next) => {
