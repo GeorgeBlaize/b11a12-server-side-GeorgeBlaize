@@ -1,4 +1,3 @@
-// controllers/candidateController.js
 import { ObjectId } from 'mongodb';
 
 const getCandidates = async (req, res, next) => {
