@@ -1,4 +1,3 @@
-// controllers/userController.js
 import { ObjectId } from 'mongodb';
 
 const getUsers = async (req, res, next) => {
