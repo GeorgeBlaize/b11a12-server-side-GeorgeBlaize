@@ -1,4 +1,3 @@
-// routes/packageRoutes.js
 import express from 'express';
 import {
   getPackages,
