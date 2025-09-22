@@ -1,4 +1,3 @@
-// server/routes/authRoutes.js
 import express from 'express';
 import { register, login, googleLogin, getMe } from '../controllers/authController.js';
 import authMiddleware from '../middleware/authMiddleware.js';
