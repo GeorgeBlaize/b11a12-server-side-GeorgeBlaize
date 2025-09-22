@@ -1,4 +1,3 @@
-// routes/storyRoutes.js
 import express from 'express';
 import {
   getStories,
