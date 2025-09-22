@@ -1,4 +1,3 @@
-// routes/candidateRoutes.js
 import express from 'express';
 import {
   getCandidates,
