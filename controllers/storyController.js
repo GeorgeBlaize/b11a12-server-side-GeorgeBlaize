@@ -1,4 +1,3 @@
-// controllers/storyController.js
 import { ObjectId } from 'mongodb';
 
 const getStories = async (req, res, next) => {
