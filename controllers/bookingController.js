@@ -1,4 +1,3 @@
-// controllers/bookingController.js
 import { ObjectId } from 'mongodb';
 import Stripe from 'stripe';
 import dotenv from 'dotenv';  
