@@ -1,4 +1,3 @@
-// controllers/packageController.js
 import { ObjectId } from 'mongodb';
 
 const getPackages = async (req, res, next) => {
