@@ -17,7 +17,14 @@ import candidateRoutes from './routes/candidateRoutes.js';
 const app = express();
 
 
-app.use(cors());
+app.use(cors({
+
+  origin: ["https://tourism-management-syste-94dec.web.app", "http://localhost:5173"],
+
+ 
+
+
+}));
 app.use(express.json());
 
 
